@@ -1,3 +1,5 @@
 cp interfaces.wifi /etc/network/interfaces
-systemctl disable dhcpcd
-# cp dhcpcd.conf.wifi /etc/dhcpcd.conf
+cp dnsmasq.conf.wifi /etc/dnsmasq.conf
+cp dhcpcd.conf.wifi /etc/dhcpcd.conf
+service hostapd stop
+service dnsmasq stop

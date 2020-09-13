@@ -1,5 +1,0 @@
-option domain-name "example.org";
-option domain-name-servers 8.8.8.8;
-
-authoritative;
-

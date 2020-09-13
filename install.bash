@@ -21,3 +21,4 @@ sed -i 's/#DAEMON_CONF=""/DAEMON_CONF="\/etc\/hostapd\/hostapd.conf"/g' /etc/def
 # Save old network interfaces and add new one
 cp /etc/network/interfaces interfaces.wifi
 
+systemctl unmask hostapd.service

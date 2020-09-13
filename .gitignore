@@ -3,4 +3,5 @@
 !interfaces.ap
 !masq.conf
 !hostapd.conf
+!dnsmasq.conf
 !.gitignore

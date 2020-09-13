@@ -1,0 +1,6 @@
+*
+!*.bash
+!interfaces.ap
+!masq.conf
+!hostapd.conf
+!.gitignore
